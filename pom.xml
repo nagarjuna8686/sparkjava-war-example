@@ -57,4 +57,10 @@
 			</plugin>
 		</plugins>
 	</build>
+        <distributionManagement>
+  	  <snapshotRepository>
+    		<id>MSF</id>
+    		<url>http://3.87.168.21:8181/nexus-latest/content/repositories/MSF</url>
+  	  </snapshotRepository>
+        </distributionManagement>
 </project>
